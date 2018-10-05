@@ -1,0 +1,9 @@
+version: 0.1
+phases:
+  install:
+    - yarn install
+    - npm i -g serverless
+  pre_build: []
+  build:
+    - sls deploy --help
+
